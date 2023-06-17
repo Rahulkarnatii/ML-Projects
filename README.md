@@ -18,11 +18,17 @@ Template code is provided in the diabetes prediction.ipynb notebook file. You wi
 
 Data
 
-The modified Boston housing dataset consists of 489 data points, with each datapoint having 3 features. This dataset is a modified version of the Boston Housing dataset found on the UCI Machine Learning Repository.
+The diabetes dataset consists of 768 data points, with each datapoint having 9 features. This is only for females.
 
 Features
 
-RM: average number of rooms per dwelling
-LSTAT: percentage of population considered lower status
-PTRATIO: pupil-teacher ratio by town
-Target Variable 4. MEDV: median value of owner-occupied homes
+Pregnancies : Number of pregnancies
+Glucose : Glucose level
+BloodPressure : Blood Pressure of the female
+SkinThickness : Skin Thickness (taken from triceps)
+Insulin : Insulin level
+BMI : Body Mass Index
+DiabetesPedegreeFunction : Indicates a diabetic value
+Age : Age of the person 
+
+Target Variable - Outcome: Indicates whether diabetic or not.
